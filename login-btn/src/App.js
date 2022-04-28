@@ -1,12 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./components/Home";
 
 function App() {
-  return (
-    <div className="App">
-      <div>Hello world</div>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
