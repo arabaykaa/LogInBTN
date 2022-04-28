@@ -1,0 +1,15 @@
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.inner{
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(120, 205, 245);
+
+    display: flex;
+    justify-content: space-between;
+}

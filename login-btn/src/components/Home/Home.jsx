@@ -1,8 +1,8 @@
 import React from "react";
-import hello from "./Home.module.css";
+import Content from "./Content/Content";
 
 function Home() {
-  return <div></div>;
+  return <Content />;
 }
 
 export default Home;
