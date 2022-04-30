@@ -14,10 +14,11 @@ header {
   background: gray;
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   .headContainer {
+    width: 80%;
     display: flex;
     align-items: center;
-    width: 80%;
   }
 }
 
@@ -32,10 +33,11 @@ header {
     display: flex;
     align-items: center;
     position: relative;
+
     ul {
       display: flex;
-      li:not(:first-child){
-          padding-left: 60px;
+      li:not(:first-child) {
+        padding-left: 60px;
       }
     }
     .supportBtn {

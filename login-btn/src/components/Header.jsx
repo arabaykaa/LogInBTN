@@ -1,13 +1,13 @@
 import React from "react";
-import "./Header.css";
+import headStyleObj from "./Header.module.css";
 
 export function Header() {
   return (
     <div>
       <header>
-        <div className="headContainer">
-          <div className="headLogo">&#128128;BRAINSTORM</div>
-          <div className="headLinkContainer">
+        <div className={headStyleObj.headContainer}>
+          <div className={headStyleObj.headLogo}>&#128128;BRAINSTORM</div>
+          <div className={headStyleObj.headLinkContainer}>
             <ul>
               <li>
                 <a href="#">Graveyard</a>
@@ -22,7 +22,7 @@ export function Header() {
                 <a href="#">Learn More</a>
               </li>
             </ul>
-            <div className="supportBtn">
+            <div className={headStyleObj.supportBtn}>
               <a href="#">Support</a>
             </div>
           </div>
