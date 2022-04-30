@@ -1,6 +1,6 @@
 @import "variables";
 * {
-  font-family: Montserrat;
+  font-family: Roboto;
   list-style-type: none;
   a {
     text-decoration: none;
@@ -24,6 +24,7 @@ header {
 
 .headContainer {
   .headLogo {
+    font-family: Poppins;
     color: $logoColor;
     font-size: 20px;
     width: 40%;

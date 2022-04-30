@@ -1,5 +1,5 @@
 * {
-  font-family: Montserrat;
+  font-family: Roboto;
   list-style-type: none;
 }
 
@@ -34,6 +34,7 @@ header .headContainer {
 }
 
 .headContainer .headLogo {
+  font-family: Poppins;
   color: #ffffff;
   font-size: 20px;
   width: 40%;
