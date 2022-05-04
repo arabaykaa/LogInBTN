@@ -65,11 +65,31 @@ header .headContainer {
 }
 
 .headContainer .headLinkContainer .supportBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   color: #ff5b79;
   border: 1px #ff5b79 solid;
-  padding: 10px 20px;
+  padding: 6px 20px;
   border-radius: 20px;
   position: absolute;
   right: 0;
+}
+
+.headContainer .headLinkContainer .supportBtn .vline {
+  margin: 0 5px 0 5px;
+  border: 1px solid #ff5b79;
+  height: 15px;
+  background: #ff5b79;
+}
+
+.headContainer .headLinkContainer .supportBtn:hover {
+  -webkit-transform: scale(1.01, 1.01);
+          transform: scale(1.01, 1.01);
 }
 /*# sourceMappingURL=Header.module.css.map */

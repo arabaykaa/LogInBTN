@@ -44,12 +44,24 @@ header {
       }
     }
     .supportBtn {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
       color: $headLniksColor;
       border: 1px #ff5b79 solid;
-      padding: 10px 20px;
+      padding: 6px 20px;
       border-radius: 20px;
       position: absolute;
       right: 0;
+      .vline {
+        margin: 0 5px 0 5px;
+        border: 1px solid $headLniksColor;
+        height: 15px;
+        background: $headLniksColor;
+      }
+      &:hover {
+        transform: scale(1.01, 1.01);
+      }
     }
   }
 }
