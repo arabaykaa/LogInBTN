@@ -1,5 +1,6 @@
 import React from "react";
 import h from "./Header.module.css";
+import Registration from "./RegistrationBtn/Registration";
 
 export function Header() {
   return (
@@ -25,7 +26,7 @@ export function Header() {
             <div className={h.supportBtn}>
               <a href="">LogIn</a>
               <div className={h.vline}></div>
-              <a href="">Registration</a>
+              <Registration value="Registr"/>
             </div>
           </div>
         </div>
