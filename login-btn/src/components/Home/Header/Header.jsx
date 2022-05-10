@@ -25,7 +25,7 @@ export function Header() {
             <div className={h.supportBtn}>
               <a href="">LogIn</a>
               <div className={h.vline}></div>
-              <a href="">LogOut</a>
+              <a href="">Registration</a>
             </div>
           </div>
         </div>
