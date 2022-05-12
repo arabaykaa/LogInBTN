@@ -1,4 +1,6 @@
-.item {
+@import "../variables";
+.supportBtn {
+  width: 10%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -6,7 +8,6 @@
   border: 1px #ff5b79 solid;
   padding: 6px 20px;
   border-radius: 20px;
-  position: absolute;
   right: 0;
   .vline {
     margin: 0 5px 0 5px;
