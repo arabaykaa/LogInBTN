@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import c from "./LogIn.module.css";
 
 export function LogInForm() {
@@ -17,6 +18,9 @@ export function LogInForm() {
             className={c.inputs}
           />
           <div className={c.btnContainer}>
+            <NavLink to="/RegistrationForm" className={c.registrationLink}>
+              Create accaunt
+            </NavLink>
             <input type="submit" value="Submit" className={c.submitBtn} />
           </div>
         </form>

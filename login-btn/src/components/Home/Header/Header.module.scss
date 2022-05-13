@@ -41,3 +41,14 @@ header {
     }
   }
 }
+.supportBtn {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: $headLniksColor;
+  border: 1px #ff5b79 solid;
+  padding: 6px 5px;
+  border-radius: 20px;
+  right: 0;
+}

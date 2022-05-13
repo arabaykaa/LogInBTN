@@ -6,7 +6,7 @@ export function HeadLinks(props) {
   return (
     <div>
       <li className={c.links}>
-        <NavLink to={props.linkurl}>{props.linkName}</NavLink>
+        <NavLink to={`${props.linkurl}`}>{props.linkName}</NavLink>
       </li>
     </div>
   );

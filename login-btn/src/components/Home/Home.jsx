@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Content from "./Content/Content";
 import { Footer } from "./Footer/Footer";
 import { LogInForm } from "./Forms/LogIn/LogInForm";
 import { RegistrationForm } from "./Forms/Registration/RegistrationForm";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header } from "./Header/Header";
 import bgColor from "./Home.module.css";
 

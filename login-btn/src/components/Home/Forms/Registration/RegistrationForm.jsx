@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import c from "./Registration.module.css";
 
 export function RegistrationForm() {
@@ -26,6 +27,9 @@ export function RegistrationForm() {
           <label className={c.labeltxt}>Password</label>
           <input type="password" name="password" className={c.inputs} />
           <div className={c.btnContainer}>
+            <NavLink to="/LogInForm" className={c.backLink}>
+              Back
+            </NavLink>
             <input type="submit" value="Log in" className={c.submitBtn} />
           </div>
         </form>

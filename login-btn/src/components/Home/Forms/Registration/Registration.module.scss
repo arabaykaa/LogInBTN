@@ -55,9 +55,18 @@
   }
   .btnContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    .backLink {
+      color: lightblue;
+      font-size: 14px;
+      letter-spacing: 1px;
+      &:hover {
+        color: #ffffff;
+      }
+    }
     .submitBtn {
-      margin-top: 40px;
       width: 50%;
       height: 30px;
       font-weight: bold;

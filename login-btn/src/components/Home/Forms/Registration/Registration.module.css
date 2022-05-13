@@ -81,12 +81,26 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+}
+
+.container .btnContainer .backLink {
+  color: lightblue;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.container .btnContainer .backLink:hover {
+  color: #ffffff;
 }
 
 .container .btnContainer .submitBtn {
-  margin-top: 40px;
   width: 50%;
   height: 30px;
   font-weight: bold;
